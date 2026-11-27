@@ -1,0 +1,35 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\ol_pointer.cur,%10%\%CUR_DIR%\ol_help.cur,%10%\%CUR_DIR%\ol_working.ani,%10%\%CUR_DIR%\ol_busy.ani,%10%\%CUR_DIR%\ol_precise2.cur,%10%\%CUR_DIR%\ol_text.cur,%10%\%CUR_DIR%\ol_pen.cur,%10%\%CUR_DIR%\ol_unavailable.cur,%10%\%CUR_DIR%\ol_vertical.cur,%10%\%CUR_DIR%\ol_horizontal.cur,%10%\%CUR_DIR%\ol_diag2.cur,%10%\%CUR_DIR%\ol_diag1.cur,%10%\%CUR_DIR%\ol_move.cur,%10%\%CUR_DIR%\ol_alternate.cur,%10%\%CUR_DIR%\ol_point.cur,%10%\%CUR_DIR%\ol_pin.cur,%10%\%CUR_DIR%\ol_person.cur"
+
+[Scheme.Cur]
+ol_pointer.cur
+ol_help.cur
+ol_precise2.cur
+ol_text.cur
+ol_pen.cur
+ol_unavailable.cur
+ol_vertical.cur
+ol_horizontal.cur
+ol_diag1.cur
+ol_diag2.cur
+ol_move.cur
+ol_alternate.cur
+ol_point.cur
+ol_pin.cur
+ol_person.cur
+ol_busy.ani
+ol_working.ani
+
+[Strings]
+CUR_DIR     = "Cursors\OutLier Lightsout v2"
+SCHEME_NAME = "OutLier Lightsout v2"
