@@ -1,14 +1,12 @@
-
 [Version]
 signature="$CHICAGO$"
 
 [DefaultInstall]
-CopyFiles = Scheme.Cur, Scheme.Txt
+CopyFiles = Scheme.Cur
 AddReg    = Scheme.Reg
 
 [DestinationDirs]
 Scheme.Cur = 10,"%CUR_DIR%"
-Scheme.Txt = 10,"%CUR_DIR%"
 
 [Scheme.Reg]
 HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
@@ -35,8 +33,8 @@ HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,
 17_person_select.cur
 
 [Strings]
-CUR_DIR       = "Cursors\Simplify Dot 2 Dark"
-SCHEME_NAME   = "Simplify Dot 2 Dark"
+CUR_DIR       = "Cursors\Simplify Dot 2 Light"
+SCHEME_NAME   = "Simplify Dot 2 Light"
 pointer       = "01_normal_select.cur"
 help          = "02_help_select.cur"
 work          = "03_working_in_background.ani"

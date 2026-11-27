@@ -1,0 +1,52 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%arrow%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%appstarting%,%10%\%CUR_DIR%\%wait%,%10%\%CUR_DIR%\%crosshair%,%10%\%CUR_DIR%\%ibeam%,%10%\%CUR_DIR%\%nwpen%,%10%\%CUR_DIR%\%no%,%10%\%CUR_DIR%\%sizens%,%10%\%CUR_DIR%\%sizewe%,%10%\%CUR_DIR%\%sizenwse%,%10%\%CUR_DIR%\%sizenesw%,%10%\%CUR_DIR%\%sizeall%,%10%\%CUR_DIR%\%uparrow%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%person%,%10%\%CUR_DIR%\%pin%"
+
+[Scheme.Cur]
+"arrow.cur"
+"help.cur"
+"appstarting.ani"
+"wait.ani"
+"crosshair.cur"
+"nwpen.cur"
+"no.cur"
+"sizens.cur"
+"sizewe.cur"
+"sizenwse.cur"
+"sizenesw.cur"
+"sizeall.cur"
+"uparrow.cur"
+"hand.cur"
+"ibeam.cur"
+"person.cur"
+"pin.cur"
+
+[Strings]
+CUR_DIR         = "Cursors\Cursor Concept 3 Dark Free"
+SCHEME_NAME     = "Cursor Concept 3 Dark Free by Jepri Creations"
+arrow		    = "arrow.cur"
+help		    = "help.cur"
+appstarting		= "appstarting.ani"
+wait		    = "wait.ani"
+crosshair	    = "crosshair.cur"
+nwpen		    = "nwpen.cur"
+ibeam		    = "ibeam.cur"
+no	            = "no.cur"
+sizens		    = "sizens.cur"   
+sizewe		    = "sizewe.cur"
+sizenwse		= "sizenwse.cur"
+sizenesw		= "sizenesw.cur"
+sizeall		    = "sizeall.cur"
+uparrow	        = "uparrow.cur"
+hand		    = "hand.cur"
+person          = "person.cur"
+pin             = "pin.cur"
