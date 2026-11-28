@@ -1,7 +1,7 @@
 # Vision Cursor
 
 ## Overview
-Vision Cursor is a cursor theme featuring CUR files and PNG icon assets in both white and adapted color schemes.
+Vision Cursor is a cursor theme featuring CUR files and PNG icon assets in multiple color schemes.
 
 ## Features
 - 17 cursor/ani files in CUR format
@@ -15,7 +15,7 @@ Vision Cursor is a cursor theme featuring CUR files and PNG icon assets in both 
 - dgn1.cur, dgn2.cur, help.cur, busy.ani
 - horz.cur, vert.cur, move.cur, person.cur
 - pin.cur, text.cur, unavailiable.cur (note: spelled "unavailiable" in source)
-- work.ani, sizeall patterns not listed but included
+- work.ani
 
 ## PNG Icon Assets
 - Pointer icons: 32px, 48px, 64px, 96px, 128px
@@ -30,7 +30,3 @@ Use the .Install.inf file in src/Vision-White/ to install the cursor theme on Wi
 - `assets/preview.png` - Theme preview image
 - `LICENSE` - License file
 - `README.md` - Additional documentation
-
-## Notes
-- Theme includes both CUR files for Windows cursor functionality and PNG icons for display
-- Color scheme is primarily White with additional assets available
