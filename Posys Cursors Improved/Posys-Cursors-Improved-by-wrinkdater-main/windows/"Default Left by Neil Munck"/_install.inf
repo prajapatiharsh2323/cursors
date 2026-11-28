@@ -1,0 +1,53 @@
+[Version]
+signature="$CHICAGO$"
+Posy's Cursor Left Improved by wrinkdater
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Scheme.Cur]
+Posy Left cursor.cur
+Posy Left help.cur
+Posy Left background max 96.ani
+Posy wait max 96.ani
+Posy Left beam.cur
+Posy Left forbidden.cur
+Posy Left size NS.cur
+Posy Left size EW.cur
+Posy Left size NwSe.cur
+Posy Left size NeSw.cur
+Posy move.cur
+Posy Left hand.cur
+Posy Left precise.cur
+Posy Left pen.cur
+Posy Left alt.cur
+Posy Left pin.cur
+Posy Left person.cur
+
+[Strings]
+CUR_DIR       = "Cursors\Posy's Left Improved by wrinkdater"
+SCHEME_NAME   = "Posy's Left Improved by wrinkdater"
+pointer       = "Posy Left cursor.cur"
+help          = "Posy Left help.cur"
+work          = "Posy Left background max 96.ani"
+busy          = "Posy wait max 96.ani"
+text          = "Posy Left beam.cur"
+unavailable   = "Posy Left forbidden.cur"
+vert          = "Posy Left size NS.cur"
+horz          = "Posy Left size EW.cur"
+dgn1          = "Posy Left size NwSe.cur"
+dgn2          = "Posy Left size NeSw.cur"
+move          = "Posy move.cur"
+link          = "Posy Left hand.cur"
+cross         = "Posy Left precise.cur"
+hand          = "Posy Left pen.cur"
+alternate     = "Posy Left alt.cur"
+pin           = "Posy Left pin.cur"
+person        = "Posy Left person.cur"
